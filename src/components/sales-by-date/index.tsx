@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import ReactApexChart from 'react-apexcharts';
 import './styles.css';
-
-/* import Chart from 'apexcharts'; */
-
 import { chartOptions } from './helpers';
+/* import Chart from 'apexcharts'; */
 
 function SalesByDate() {
   return (

@@ -8,10 +8,9 @@ function App() {
   return (
     <>
       <Header />
-      <div className='app-container'>
+      <div className="app-container">
         <Filter />
         <SalesByDate />
-
       </div>
     </>
   );

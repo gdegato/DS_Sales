@@ -5,7 +5,6 @@ import flatpickrLib from 'flatpickr';
 import { Portuguese } from 'flatpickr/dist/l10n/pt';
 import FlatPicker from 'react-flatpickr';
 
-
 flatpickrLib.localize(Portuguese);
 
 function Filter() {
@@ -25,11 +24,11 @@ function Filter() {
         onChange={onChangeDate}
         placeholder="Selecione um período"
       />
-      <select className='filter-input'>
-       <option value="">Selecione um gênero</option>
-       <option value="MALE">Masculino</option>
-       <option value="FEMALE">Feminino</option>
-       <option value="OTHER">Outro</option>
+      <select className="filter-input">
+        <option value="">Selecione um gênero</option>
+        <option value="MALE">Masculino</option>
+        <option value="FEMALE">Feminino</option>
+        <option value="OTHER">Outro</option>
       </select>
     </div>
   );
