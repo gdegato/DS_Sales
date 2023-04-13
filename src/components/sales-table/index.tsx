@@ -1,4 +1,5 @@
 import './styles.css';
+import '../../responsive.css';
 import { FilterData, Gender, Sale, SalesResponse } from '../../types';
 import { buildFilterParams, makeRequest } from '../../utils/request';
 
